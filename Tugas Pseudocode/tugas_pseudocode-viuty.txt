@@ -1,0 +1,41 @@
+1. procedure newtonSecondLaw
+store "massa_benda" with 600
+store "percepatan" with 2
+sore "resultanGaya" with any value
+
+calculate "massa_benda" times "percepatan"
+set "resultanGaya" value with calcalution result
+print "resultanGaya"
+
+2. procedure tahunKabisat
+read "tahun"
+if ("tahun" mod 4 equals to 0 and "tahun" mod 100 not equals to 0)
+ then print ("adalah tahun kabisat")
+else if("tahun" mod 4 equals to 0 and "tahun" mod 100 equals to 0 and "tahun" mod 400 equals to 0)
+  then print ("adalah tahun kabisat")
+else
+  then print ("bukan tahun kabisat")
+
+3. procedure laundryDay
+store "i" with 0
+while "i" < 20
+ add "i" by 1
+endwhile
+print ("I am ready! Turn on me")
+
+4. procedure periksaKuku
+
+store "jumlahSiswa" with 0
+store "kukuPanjang" with boolean datatype
+
+while "jumlahSiswa" < 40
+ read "kukuPanjang"
+ if "kukuPanjang" is true
+  then print("you get punishment")
+ else
+  then print("good student!")
+ add "jumlahSiswa" by 1
+endwhile
+
+
+
