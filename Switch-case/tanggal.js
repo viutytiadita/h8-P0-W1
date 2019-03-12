@@ -31,4 +31,12 @@ switch(bulan){
         bulan='undefined';
 }
 
-console.log(hari+' '+bulan+' '+tahun);
+if(hari<=0 || hari>31){
+    console.log("salah hari pada tanggal"); 
+}
+else if(tahun <= 1000 || tahun >= 3000){
+    console.log('tahun invalid');
+}
+else{
+    console.log(hari+' '+bulan+' '+tahun);
+}
